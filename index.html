@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta charset=utf-"8">
+  <title>Batalla de Puebla</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/app2-theme.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ 
+  
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+  
+  <script src ="phonegap.js"></script><!--necesario*/-->
+  <script type ="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  
+  
+ </head>
+<body onLoad="MM_preloadImages('imagenes/images.jpg','imagenes/bat.jpg','imagenes/persona.jpg','imagenes/ima.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Batalla de Puebla</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>5 de mayo</h1>
+     <div>
+      <img src="imagenes/mallo.jpg" width="630" height="385">
+      
+      <br>
+      
+       <a 
+        href="https://www.mexicodesconocido.com.mx/batalla-de-puebla.html/" target=_self> Ir a la pajina relacionada al tema </a>
+  
+    </div>
+   </div>
+  </div>
+  <div data-role="collapsible" data-comtent-theme="false">
+  <h1> 4 de mayo </h1>
+  <div>
+      <img src="imagenes/ma.jpg" width="709" height="425">
+      
+      <br>
+       <a 
+        href="https://www.sabersinfin.com/articulos/historia/6710-4-de-mayo-de-1862" target=_self> Ir a la pajina relacionada al tema </a>
+  
+    
+    </div>
+    </div>
+    <div data-role="collapsible" data-comtent-theme="false">
+  <h1> Leyenda del 5 de mayo </h1>
+  <div>
+      
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/ima.jpg',1)"><img src="imagenes/ban.jpg" width="420" height="298" id="Image18"></a> 
+      
+      <br>
+       <a 
+        href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" target=_self> Ir a la pajina relacionada al tema </a>
+        
+      </div>
+    </div>
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Batalla del 4 de mayo  </h2>
+       <p> Definicion de la batalla : </p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Batalla del 5 de mayo </h2>
+       <p> Definicion de la batalla : </p>  
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Inicio del conflicto </h2> 
+       <p>  Principo de la batalla :</p>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Monumentos y/o museos que existan sobre el tema </h2>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2>Heroes de la batalla</h2>
+       <p> Se mostraran algunos personajes mas importantes que participaron en el conflicto </p>
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <div>
+    <h4>Aplicación seis</h4>
+    <h4>Oscar Morales Peña</h4>
+   </div>
+  </div>
+ </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Definicion</h1> 
+  </div>
+<div data-role="content" align="center">
+   <div>
+    <p>La historia de la Batalla del 4 de Mayo de 1862 relata que, durante la segunda intervención francesa en México, en la hacienda de La Trapera, los atlixquenses y elementos del Ejército Mexicano, al mando de los generales Antonio Carvajal y Tomas O´Horan se enfrentaron a las tropas al servicio del Segundo Imperio Mexicano comandadas por José María Cobos y Leonardo Márquez.
+ 
+Y que, gracias a este triunfo, el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar al día siguiente a las tropas francesas del Conde de Lorencez en la Batalla de Puebla.
+ 
+Al llegar al zócalo del municipio, el alcalde y autoridades municipales tomaron su lugar en Palacio Municipal para después recibir con aplausos a los contingentes de estudiantes atlixquenses, entre ellos, la participación de 23 banderas con escolta, 38 elemento del personal militar, 20 unidades móviles, nueve mil 958 directivos, docentes, administrativos y alumnos de 46 plantes educativos, 22 bandas de guerra y/o música, 40 binomios de charros, así como 446 empleados de instituciones municipales.
+ 
+Previo a este evento las autoridades del gobierno municipal, alumnos, docentes y padres de familia de la escuela federal Héroes del 4 de Mayo se dieron cita para realizar una ceremonia cívica y recordar a través de una plástica el hecho triunfal de la batalla que por nombre lleva esta institución.
+ 
+En el evento, Galeazzi Berra celebró la valentía y la decisión de los héroes atlixquenses que permitió el triunfo de la Batalla de Puebla y que enorgullece a todos mexicanos: “el gobierno de Juárez consideró que sin el triunfo del 4 de mayo en Atlixco no hubiera sido posible la victoria de la Batalla de Puebla en los Fuertes de Loreto, el 5 de mayo de 1862”.
+ 
+Por tal motivo, un 20 de noviembre de 1998, el Congreso del Estado de Puebla declaró a Atlixco Heroica Ciudad.
+ 
+Así mismo, las autoridades municipales depositaron una ofrenda floral en el busto del general Antonio Carvajal.
+ 
+A estos eventos también asistieron Graciela Cantorán Nájera, regidora de Patrimonio y Hacienda; Haydee Muciño Delgado, regidora de Grupos Vulnerables y Equidad entre Géneros; María Auxilio Morales Heredia, regidora de Desarrollo Humano, Social y Económico; Jorge Gutiérrez Ramos, síndico municipal; Jorge Eduardo Moya Hernández, regidor de Seguridad Pública y Gobernanza; Jorge Mario Blancarte Montaño, regidor de Agricultura y Ganadería; Juan Manuel Ayestarán Nava, regidor de Obras y Servicios Públicos de Calidad; Félix Castillo Sánchez, regidor de Educación, Juventud y Deporte; Rodolfo Chávez Escudero, regidor de Ecología y Medio Ambiente Sustentable; así como Javier Machuca Vargas, director general de Seguridad Pública y Gobernanza; Juan Francisco Torres Montiel, director general de Desarrollo Humano y Económico con Inclusión Social; Germán Huelitl Flores, director de Desarrollo Social y Comunitario; Leonor Popócatl Gutiérrez y Patricia Amaro González, enlace regional de la sección 51 SNTE.
+Lo anterior fue informado a través de un comunicado de prensa. </p>
+    
+    <br>
+    
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/persona.jpg',1)"><img src="imagenes/navas.jpg" width="655" height="402" id="Image17"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <h4>Aplicación seis, OMP</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Definicion </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>El 5 de Mayo, el día  28 de abril de 1862, tuvo lugar un enfrentamiento conocido como la Batalla de las Cumbres entre el Ejército Expedicionario Francés y el Ejército Mexicano. En este conflicto hubo cerca de 500 bajas francesas en contra de apenas 50 bajas mexicanas.
+
+El 2 de mayo parte el Ejército Expedicionario Francés desde San Agustín del Palmar en Veracruz con rumbo a cruzar la Sierra Madre Oriental y dirigirse hacia Puebla, era paso obligado para llegar a la capital mexicana.
+
+Otros generales mexicanos también participaron en la defensa de Puebla como es el caso de  las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo defendió Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec, ubicado en el norte de la ciudad, y en cuya cumbre están los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería.
+
+El 5 de mayo, a las 9 de la manana, aparecen los franceses en el horizonte, pero es hasta las 11 de la manana cuando comienzan las hostilidades, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad.
+
+El día 5 de mayo de 1862, tras una de las más duras batallas de la historia, la cual duró desde el amanecer a la tarde, los franceses terminaron por retirarse. El saldo fue de más de 500 bajas en las líneas francesas contra apenas unas 100 en las mexicanas.
+
+Éste hecho se convirtió en un fuerte símbolo de la resistencia y del poder mexicano, representando justamente una victoria simbólica contra los grandes imperios.</p>
+
+
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/bat.jpg',1)"><img src="imagenes/imag.jpg" width="259" height="194" id="Image16"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <h4>Aplicación seis, OMP</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Razones y consecuencias </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>  Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.
+
+Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios.
+Los 3 países conforman una alianza para invadir a México. Antes de que la invasión ocurriera, Benito Juárez solicita un acuserdo amistoso para el pago de la deuda. Se generó un documento que firmaron como acuerdo; estos acuerdos y condiciones fueron respetados por España e Inglaterra, pero Francia decide invadir a México.
+
+<br>
+
+La victoria de la Batalla de Puebla no fue decisiva, ya que, posteriormente, Ciudad de México sería invadido por los franceses. No obstante, la victoria vino en el momento que más lo necesitaban: si perdían, la hegemonía pasaría a ser de Francia, algo difícil de revertir. Por ende, fue una victoria valiosa. Además, fue el comienzo de una resistencia que terminaría en la rendición definitiva de Francia, retirándose de México en 1867.</p> 
+
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/images.jpg',1)"><img src="imagenes/image.jpg" width="273" height="185" id="Image15"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <h4>Aplicación seis, OMP</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add- <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <h4>Aplicación seis, OMP</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Definicion</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Monumentos y Museos </h2>
+    
+    
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/muse.jpg" alt="muse" title="muse" id="wows1_0"/></li>
+		<li><img src="data1/images/museo.jpg" alt="museo" title="museo" id="wows1_1"/></li>
+		<li><img src="data1/images/museoi.jpg" alt="museoi" title="museoi" id="wows1_2"/></li>
+		<li><img src="data1/images/slid.jpg" alt="slid" title="slid" id="wows1_3"/></li>
+		<li><img src="data1/images/slide.jpg" alt="slide" title="slide" id="wows1_4"/></li>
+		<li><img src="data1/images/slidel.jpg" alt="slidel" title="slidel" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/slider.jpg" alt="wowslider.net" title="slider" id="wows1_6"/></a></li>
+		<li><img src="data1/images/sliderr.jpg" alt="sliderr" title="sliderr" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="muse"><span><img src="data1/tooltips/muse.jpg" alt="muse"/>1</span></a>
+		<a href="#" title="museo"><span><img src="data1/tooltips/museo.jpg" alt="museo"/>2</span></a>
+		<a href="#" title="museoi"><span><img src="data1/tooltips/museoi.jpg" alt="museoi"/>3</span></a>
+		<a href="#" title="slid"><span><img src="data1/tooltips/slid.jpg" alt="slid"/>4</span></a>
+		<a href="#" title="slide"><span><img src="data1/tooltips/slide.jpg" alt="slide"/>5</span></a>
+		<a href="#" title="slidel"><span><img src="data1/tooltips/slidel.jpg" alt="slidel"/>6</span></a>
+		<a href="#" title="slider"><span><img src="data1/tooltips/slider.jpg" alt="slider"/>7</span></a>
+		<a href="#" title="sliderr"><span><img src="data1/tooltips/sliderr.jpg" alt="sliderr"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <h4>Aplicación seis, OMP</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Biografias </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>  GENERAL IGNACIO ZARAGOZA    </h2>
+    
+    
+    
+    <img src="imagenes/zaragoza.jpg" width="222" height="300">
+    
+    <p>
+    Encabezó la defensa mexicana frente a la ofensiva francesaÂ encabezada por Carlos Latrille, mejor conocido como el Conde de Lorencez. 
+
+Nacido en el entonces departamento mexicano de Texas, siempre se consideró él mismo un neoleonés por adopción.
+ 
+Enlistado como soldado en las Guardias Nacionales del estado, su carrera ascendió durante la Guerra de Reforma hasta convertirse en General del Ejército Mexicano y, con el triunfo de los liberales, en Ministro de Guerra del Presidente Benito Juárez.
+ 
+Atrincherado en Puebla para hacerle frente al ejército francés, siempre supo dar ímpetu y valor a sus hombres. México era una incipiente realidad como nación soberana, y lo recordó a sus tropas el 4 de mayo de 1862, en la víspera de la batalla, cuando reuniéndolos en la Plaza de San José les dijo: 
+
+Soldados, os habéis portado como héroes combatiendo por la Reforma. Vuestros esfuerzos han sido siempre coronados por el éxito. Hoy vais a pelear por un objeto sagrado, vais a pelear por la Patria y yo os prometo que en la presente jornada conquistaréis un día de gloria. Vuestros enemigos son los primeros soldados del mundo, pero vosotros sois los primeros hijos de México. Soldados, leo en vuestras frentes la victoria y la fe. ¡Viva la independencia nacional! ¡Viva la patria!"
+    </p>
+    
+    <h2> GENERAL MIGUEL NEGRETE </h2>
+    
+    <img src="imagenes/negrete.jpg" width="360" height="229">
+    
+    <p>Es considerado por algunos historiadores como el verdadero héroe de la Batalla de Puebla. Durante la Guerra de Reforma participó del lado de los conservadores. Sin embargo, cuando la nación se vio invadida, se acogió a la amnistía que el Presidente Benito Juárez extendió a todos sus antiguos enemigos, incorporándose así a las filas republicanas.
+Â 
+El 5 de Mayo estuvo al mando de las fuerzas que defendían el Cerro de Guadalupe, recibiendo el peso del principal asalto francés.
+Â 
+En el primer ataque, cuando los zuavos confiados ascendían la pendiente, los mexicanos aguardaron hasta que el General Negrete levantó su gorra como señal para hacer fuego.
+Â 
+Las nutridas descargas sorprendieron a los franceses, quienes después de hacer alto y responder por algunos minutos, retrocedieron con graves pérdidas. </p>
+    
+    
+    
+    <h2> GENERAL PORFIRIO DIAZ </h2>
+    
+    <img src="imagenes/porfirio.jpg" width="340" height="307">
+    
+    
+   <p> Militar valiente de origen oaxaqueño, Díaz llenó su nombre de gloria con una destacada participación durante el 5 de Mayo.
+Â 
+Colocado con su Brigada de Oaxaca en la Ladrillera de Azcarate, uno de los últimos edificios de la ciudad, rechazó tenazmente al final de la batalla un ataque hecho por la Infantería de Marina francesa.
+Â 
+El 5 de mayo, el político oaxaqueño y otros militares intervinieron en la Batalla de Puebla, Díaz defendió el ala izquierda de la ciudad, y rebatió en dos ocasiones el ataque francés. 
+Â 
+En un principio, retirándose en buen orden, los marinos franceses pronto se vieron huyendo en pánico perseguidos por los Lanceros de Oaxaca. Tan precipitada fue su huida, que muchos galos tuvieron que arrojar sus mochilas para poder correr más aprisa de la caballería mexicana.
+Â 
+Jesús González Ortega y Porfirio Díaz se dieron a la tarea de perseguirlos, hasta que Zaragoza se los impidió. </p>
+    
+    
+   <h2> GENERAL FELIPE BERRIOZABAL </h2>
+   
+   <img src="imagenes/felipe.jpg" width="388" height="600">
+   
+   <p> Político, ingeniero, Ministro de Guerra y Marina; General de división. Sirvió de 1849 hasta el 1900 con lealtad en el Ejército mexicano, Felipe Berriozábal participó en la Primera intervención estadounidense en México, la Guerra de Reforma y la Segunda Intervención Francesa en México y formó parte de los gobiernos de Benito Juárez y Porfirio Díaz. Nacido en Zacatecas, Zacatecas, en 1827, realizó como ingeniero el proyecto hidráulico de canalización del Río Lerma. Durante la Revolución de Ayutla participó con los liberales bajo las órdenes del general Plutarco González. Durante la Guerra de Reforma, el general Santos Degollado lo nombró coronel de caballería auxiliar y más tarde ascendió a general de brigada. 
+     
+
+     Las crónicas históricas de la Batalla de Puebla narran que el general Zaragoza hizo avanzar al general Felipe Berriozábal a paso veloz entre las rocas y situándolo entre la hondonada que divide Loreto y Guadalupe. Mientras que el general Antonio Alvarez, con su brigada protegía la izquierda de los reductos. Los franceses continuaron su avance, colocando sus baterías frente a Guadalupe y devuelviendo el fuego mexicano que nacía de aquella posición. Los "zuavos" (regimiento de infantería francesa) ascienden hacia el Fuerte de Guadalupe, perdiéndose de la vista de los fusileros mexicanos y de repente, aparecieron frente al Fuerte de Guadalupe, rompiendo fuego de fusil sobre la columna, que paró en seco ante el fuego mexicano. En ese instante, el general Felipe Berriozábal dio la bienvenida con bayoneta a los zuavos, quienes se retiraron hasta ponerse fuera de tiro. </p>
+    
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/iconm.png" width="128" height="128">
+   </div>
+   <h4>Aplicación seis, OMP</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+
+ 
